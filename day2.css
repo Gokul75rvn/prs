@@ -1,0 +1,124 @@
+/* 
+.ml{
+    background-color: #87e86c;
+    border: 2px solid black;
+    padding: 10px 30px;
+   display: flex;
+    justify-content: space-between;
+     align-items: center;
+    
+}
+
+.kl{
+    width: 6vw;
+    border-radius: 50%;
+    
+}
+.nos
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.reg{
+background-color: rgb(182, 214, 214);
+text-align: center;
+gap: 30px;
+align-items: center;
+flex-direction: column;
+width: 400px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 45px;
+padding-right: 10px;
+
+
+}
+
+.form{
+    text-align: left;
+    padding: 10px;
+    width: 300px;  
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  
+  
+}
+.he{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.gen{
+    text-align: left;
+    padding-top: 10px;
+    gap: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+.add{
+    text-align: left;
+    margin-left: 35px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ad{
+    width:320px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 40px;
+
+}
+.co{
+  display: flex;
+  gap: 10px;
+  height: 20px;
+  margin-left: 10px;
+  
+  
+
+}
+
+.na{
+    width: 300px;
+    height: 30px;
+    border-radius: 45px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.mm{ 
+    display: flex;
+    gap: 20px;
+}
+
+.jk{
+    width: 150px;
+    margin-bottom: 10;
+}
+
+.sub{
+background-color: rgb(44, 25, 255);
+width: 105px;
+margin-top: 10px;
+font-weight: bold;
+color: whitesmoke;
+height: 30px;
+border-radius: 75px;
+}

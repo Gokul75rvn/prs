@@ -1,0 +1,120 @@
+javascript
+
+
+
+
+ * programming language is javascript
+ * html
+       <script>
+           console.log("hello") 
+       </script>
+
+identifier 
+           1.can use a-z,A-Z,0-9,_
+           2.can't start with 0-9
+           3.can't use keyword
+           4.can't use space
+           5.can't use special characters
+
+
+examples
+     1. let a=10;
+     2.let abc123=60;
+     3.let 1abc=50;invalid
+     4.let abc@123=40;invalid
+     5.let iF=40;
+
+
+
+data types
+  
+
+1.number-(whole no,decimal no)
+2.boolean-(true,false)
+3.string-("abc@123",'xyz')
+4.bigint-(number)
+5.undefined
+6.object- (object,array,function,set,map,date)
+7.symbol
+8.null
+
+example
+
+let abd_123=50;
+let a=20;
+let a='the';
+let a="the";
+let a=40n;
+
+ console.log(typeof a);
+ console.log("10"+3);
+ console.log("10"+3+5);
+ console.log("10"*2);
+
+
+
+operators
+
+arithmetic (+,-,*,/,%.**)
+relational (<,>,<=,>=,==,!=,==)
+logical (&&,||,!)
+ternary (? :)
+bitwise (&,|,^,~,<<,>>)
+increment/decrement (++,--)
+assignment (=,+=,-=,....)
+
+
+
+console.log(10+30);
+console.log("ab"+2);
+console.log(10-true);
+console.log(3**2);
+console.log(10/3);
+console.log(10%3);
+
+
+
+console.log("10"+3+5);
+console.log("abc"-4)
+console.log("10"-3)
+console.log("56"/2)
+
+
+console.log(44>67)
+console.log("10"==10)
+console.log("10"===10)
+console.log(false==0)
+ console.log(true && false)
+ console.log(true && true && False && true)
+ console.log(false || true || false)
+ console.log(!!!!!!!!true)
+ console.log(4 && 5 && 0.0 && 2)
+ console.log(5 && 3)
+
+
+ console.log(true ? "yes" : "no");
+ console.log(false ? "yes" : "no");
+ console.log(5 > 3 ? "greater" : "lesser");
+ console.log(5 < 3 ? "greater" : "lesser");
+
+
+
+ let a=20;
+  a= a+10;
+  a++;post increment,nearest operation will be performed first
+  ++a;pre increment,increment will be performed first
+
+ let b=++a;
+ let b=a++;
+ let b=--a;
+ let b=a--;
+ 
+  console.log(a,b);
+
+
+control flow
+
+contestional statement (if,if else,else if,nested if,switch)
+looping(for,while,do while)
+transfer (break,continue)
+
